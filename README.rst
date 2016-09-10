@@ -20,11 +20,8 @@ Requirements:
 Installation
 ============
 
-Clone the repository to your pc and, assuming that ``pip`` is installed,
-run the following commands:
-
--  ``python setup.py sdist``
--  ``pip install dist/django-pydash-app-*.tar.gz``
+Add to requirements.txt
+``-e git://github.com/hqpr/django-pydash.git#egg=django-pydash``
 
 Make sure that ``django.contrib.auth`` is installed and working.
 
